@@ -11,10 +11,10 @@ var users = require('./routes/users');
 // database
 var mysql = require('mysql');
 var con = mysql.createConnection({
-  host     : 'nt71li6axbkq1q6a.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-  user     : 'v98zns9ad5sl7kz0',
-  password : 'mcxuxm2f3r6uu6kj',
-  database : 'boey0ihsx8i7hawt'
+  host     : 'vhw3t8e71xdz9k14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+  user     : 'isfg9ikrboetv998',
+  password : 's9dseoswxd9suo1o',
+  database : 'nr644lega2xmz9yy'
 });
 con.connect(function(err){
   if(err){
